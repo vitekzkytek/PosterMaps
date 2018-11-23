@@ -22,6 +22,10 @@ const map = new mapboxgl.Map({
   center: [14.454, 50.087],
   zoom: 11.87
 });
+map.addControl(new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken
+}));
+
 </script>
 
 </body>
