@@ -23,7 +23,6 @@ function loadJS() {
     }).always(function() {
         console.log( "complete" );
     });
-    ​
 }
 
 
